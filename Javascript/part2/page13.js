@@ -4,7 +4,7 @@ const obj = {
   currPrice: 250,
 };
 function calc(obj) {
-  console.log(obj.lastPrice);
+  console.log(obj.currPrice);
   obj.growth = obj.currPrice - obj.lastPrice;
   obj.growthper = (obj.growth * 100) / obj.lastPrice;
   console.log(obj);
