@@ -19,6 +19,9 @@
   "homepage": "https://github.com/nairx/mru26a#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.2.1"
+    "ejs-layouts": "^0.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.19.0"
   }
 }

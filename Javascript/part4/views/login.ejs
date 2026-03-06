@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-</head>
-<body>
-    <h1 style="color:blue">Login form</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Login Form</h2>
+  <% if (error) { %>
+<div><%= error  %></div>
+  <% } %>
     <form action="/login" method="POST">
-        <p><input type="text" placeholder="Enter ur Email"></p>
-        <p><input type="password" placeholder="Enter ur password"></p>
-        <button>Login</button>
+      <p><input type="text" name="email" placeholder="Email" /></p>
+      <p><input type="password" name="password" placeholder="Password" /></p>
+      <p><button>Login</button></p>
     </form>
     <p>
-        New user <a href = "/register">Register</a> here!
+      New user <a href="/register">register</a> here!
     </p>
-</body>
+  </body>
 </html>
