@@ -37,7 +37,7 @@ db.products.insertMany([
 db.products.find({price : 5000}) // it will return all the documents with price 5000
 
 //show or hide fields
-db.products.find({},{_id:0}) //except _id all
+db.products.find({},{_id:0}) //except object_id prints all
 
 // db.products.find({},{name:1})
 db.products.find({},{_id:0,name:1}) //only name fields will appear

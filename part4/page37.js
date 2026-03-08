@@ -47,3 +47,16 @@ db.products.updateOne(
 db.products.aggregate(
     { $group: { _id: "$category", total: { $sum: "$price" } }}
 );
+
+//updateMany
+db.products.updateMany(
+    { name: "prod 3" },
+    { $set: { category: "Category B"}}
+);
+ 
+//To change for all
+db.products.updateMany(
+    {},
+    {$set: { category: "Category A"} }
+);
+
