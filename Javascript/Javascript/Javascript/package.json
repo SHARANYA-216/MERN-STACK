@@ -1,0 +1,27 @@
+{
+  "name": "mru26a",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nairx/mru26a.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nairx/mru26a/issues"
+  },
+  "homepage": "https://github.com/nairx/mru26a#readme",
+  "description": "",
+  "dependencies": {
+    "ejs-layouts": "^0.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.19.0"
+  }
+}

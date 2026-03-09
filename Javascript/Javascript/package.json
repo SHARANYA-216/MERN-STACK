@@ -8,20 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nairx/mru26a.git"
+    "url": "git+https://github.com/SHARANYA-216/MERN-STACK.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nairx/mru26a/issues"
+    "url": "https://github.com/SHARANYA-216/MERN-STACK/issues"
   },
-  "homepage": "https://github.com/nairx/mru26a#readme",
+  "homepage": "https://github.com/SHARANYA-216/MERN-STACK#readme",
   "description": "",
   "dependencies": {
     "ejs-layouts": "^0.0.1",
     "express": "^5.2.1",
     "express-ejs-layouts": "^2.5.1",
-    "express-session": "^1.19.0"
+    "express-session": "^1.19.0",
+    "mongoose": "^9.2.4"
   }
 }

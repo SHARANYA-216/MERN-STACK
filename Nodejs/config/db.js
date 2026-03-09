@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose"; // method to connect to mongodb atlas
 const dbConnect = async () => {
     try{
         await mongoose.connect(process.env.MONGO_URI);
@@ -6,4 +6,4 @@ const dbConnect = async () => {
         console.log(err);
     }
 };
-export default dbConnect;
+export default dbConnect; //writen for dbConnect

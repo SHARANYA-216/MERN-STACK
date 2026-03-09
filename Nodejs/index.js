@@ -8,7 +8,7 @@ import dbConnect from "./config/db.js";
 
 dotenv.config();
 
-dbConnect();
+dbConnect(); //connects mongodb server to render server
 
 const app = express();
 app.use(expressLayouts);
